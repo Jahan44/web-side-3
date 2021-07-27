@@ -1,0 +1,90 @@
+
+/* header css style */
+.header-image{
+    max-width: 100%; 
+    height: 700px;
+    background: url(image/img-1/ban.jpg) no-repeat center center;
+    /* background-color: blueviolet; */
+}
+.my-sss{
+    width: 100%;
+    height: 600px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-fak{
+    letter-spacing: 1rem;
+    color: white;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.img-size{
+    width: 250px;
+    height: 250px;
+    position: relative;
+   z-index: -1;
+}
+/* .im::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: violet;
+    top: 0%;
+    left: 0%;
+   z-index: 1;
+   
+}
+.im:hover .im::after{
+    visibility: visible;
+} */
+.img-size:hover{
+  background-color: violet;
+}
+
+.img-control-left{
+    max-width: 550px;
+    max-height: 750px;
+}
+
+.right-position-text{
+    text-align: justify;
+    padding: 100px 5px 5px 5px;
+}
+
+
+
+/* form section css style */
+
+.form-p-size{
+    font-size: 12px;
+}
+.form-padding-div{
+    margin-top: 33px;
+}
+.btn-my-size{
+    width: 130px;
+    height: 40px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+.text-style{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.hover-pra{
+    transition: all .4s;
+}
+.a-styke{
+    text-decoration: none;
+    color: white;
+}
+.hover-pra:hover .a-styke{
+ text-decoration: underline;
+ color: gray;
+}
